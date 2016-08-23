@@ -25,10 +25,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
     RegistViewController *registV = segue.destinationViewController;
-    NSString *userName = @"ddddd";
-    NSString *password = @"11111";
-    
-    [registV loadUserName:userName password:password];
+//    NSString *userName = @"ddddd";
+//    NSString *password = @"11111";
+//    
+//    [registV loadUserName:userName password:password];
     registV.userBlock = ^(NSString *userName, NSString *password){
         
         self.userName.text = userName;
