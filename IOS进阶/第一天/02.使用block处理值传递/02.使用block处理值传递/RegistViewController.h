@@ -12,7 +12,7 @@ typedef void(^UserInfoBlock)(NSString *userName,NSString *passWord);
 @interface RegistViewController : UIViewController
 
 
-- (void)loadUserName:(NSString *)userName password:(NSString *)password;
+//- (void)loadUserName:(NSString *)userName password:(NSString *)password;
 
 @property (nonatomic, copy) UserInfoBlock userBlock;
 @end
